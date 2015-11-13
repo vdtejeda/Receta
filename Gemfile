@@ -33,7 +33,7 @@ group :production, :staging do
   gem "rails_serve_static_assets"
 end
 
-gem "pry-rails", group:"development"
+# gem "pry-rails", group:"development"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
