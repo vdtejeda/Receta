@@ -31,6 +31,6 @@ feature 'Creating, editing, and deleting a recipe', js: true do
 
     click_on "Delete"
 
-    expect(Recipe.find_by_name("Roasted Brussel Sprouts").to be_nil)
+    expect(Recipe.find_by_name("Roasted Brussel Sprouts")).to be_nil
   end
 end
